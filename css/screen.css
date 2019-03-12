@@ -236,7 +236,9 @@ a:focus {
 .c-article__body{
   padding: 0 24px;
 }
-
+.u-max-width-sm{
+  max-width: 36em;
+}
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {}
@@ -268,9 +270,13 @@ a:focus {
   }
   .c-article__content{
     width: 75%;
-    padding-left: 5%;
   }
-
+  .c-author{
+    display: block;
+  }
+  .c-author__image{
+    margin-bottom: 16px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
